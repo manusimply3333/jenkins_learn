@@ -21,3 +21,6 @@ def test_first(main_module):
 def test_second(main_module):
     assert main_module != 40
 
+def test_second(main_module):
+    a = "40"
+    assert main_module == int(a)
